@@ -11,6 +11,11 @@ def get_favorite_vegetable():
     where X is replaced with the user's favorite vegetable.
     """
     # write your code here.
+    get_favorite_vegetable = input ("What's your favorite vegetable? ")
+    start = "Interesting! I also love "
+    end = "!"
+    output_message = start + get_favorite_vegetable + end
+    print(output_message)
 
 
 def get_favorite_number():
@@ -20,6 +25,11 @@ def get_favorite_number():
     where X is replaced with the user's favorite number.
     """
     # write your code here.
+    get_favorite_number =  input ("What's your favorite number? ")
+    start = "Interesting! I also love "
+    end = "!"
+    output_message = start + get_favorite_number + end
+    print (output_message)
 
 
 def get_name_and_zodiac_sign():
@@ -30,6 +40,13 @@ def get_name_and_zodiac_sign():
     where X and Y are replaced by the user's name and zodiac sign, respectively.
     """
     # write your code here.
+    get_name = input ("What's your name? ")
+    get_zodiac_sign = input ("What is your zodiac sign? ")
+    start = "Interesting! My name is also "
+    middle = ", and I'm also a "
+    end = "!"
+    output_message = start + get_name + middle + get_zodiac_sign + end
+    print (output_message)
 
 
 def get_name_and_age():
@@ -40,3 +57,11 @@ def get_name_and_age():
     where X and Y are replaced by the user's name and age, respectively.
     """
     # write your code here.
+    get_name = input ("What's your name? ")
+    get_age = input ("How old are you? ")
+    start = "Interesting! My name is also "
+    middle = ", and I'm also "
+    end = " years old!"
+    output_message = start + get_name + middle + get_age + end
+    print (output_message)
+
